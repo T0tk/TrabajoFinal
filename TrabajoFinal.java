@@ -63,7 +63,7 @@ public class TrabajoFinal {
                 lista[i] = clientes[i];
             }
         }
-//nuenvo
+//nuevo
         return Arrays.toString(lista);
     }
 }

@@ -27,7 +27,7 @@ public class TrabajoFinal {
         String sorteoClientes = calcularClientes(clientes,condicionFecha,condicionCompra);
         System.out.println("Los clientes que entraron al sorteo son: " + sorteoClientes);
     }
-
+//Aqui se revisa la fecha de compra del cliente y si esta entre la fecha del sorteo
     private static String[] calcularFecha(String[] fechas, int diaSorteo, int mesSorteo, int aoSorteo){
         String[] lista = new String[fechas.length];
 
@@ -42,7 +42,7 @@ public class TrabajoFinal {
 
         return lista;
     }
-//Aqui se calculan si la compra entra al sorteo
+//Aqui se calculan si la compra cumple los requisitos para ingresar al sorteo
     private static int[] calcularCompra(int[] montos, int montoSorteo){
         int[] lista = new int[montos.length];
 
@@ -54,7 +54,7 @@ public class TrabajoFinal {
 
         return lista;
     }
-//Aqui se calcular que clientes ingresan al sorteo
+//Esta funcion nos da una lista de los clientes que entraron al sorteo
     private static String calcularClientes(String[] clientes, String[] condicionFecha, int[] condicionCompra){
         String[] lista = new String[clientes.length];
 

@@ -27,7 +27,7 @@ public class TrabajoFinal {
         String sorteoClientes = calcularClientes(clientes,condicionFecha,condicionCompra);
         System.out.println("Los clientes que entraron al sorteo son: " + sorteoClientes);
     }
-//Aqui se revisa la fecha de compra del cliente y si esta entre la fecha del
+//Aqui se revisa la fecha de compra del cliente y si esta entre la fecha del branch
     private static String[] calcularFecha(String[] fechas, int diaSorteo, int mesSorteo, int aoSorteo){
         String[] lista = new String[fechas.length];
 

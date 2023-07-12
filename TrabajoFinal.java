@@ -63,10 +63,8 @@ public class TrabajoFinal {
                 lista[i] = clientes[i];
             }
         }
-//nuevo borrador
+//nuevo
         return Arrays.toString(lista);
     }
-
-
 }
 

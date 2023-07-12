@@ -54,7 +54,7 @@ public class TrabajoFinal {
 
         return lista;
     }
-
+//Aqui se calculan los clientes que entraron al sorteo
     private static String calcularClientes(String[] clientes, String[] condicionFecha, int[] condicionCompra){
         String[] lista = new String[clientes.length];
 

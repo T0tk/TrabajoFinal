@@ -42,7 +42,7 @@ public class TrabajoFinal {
 
         return lista;
     }
-
+//Aqui se calculan si la compra entra al sorteo
     private static int[] calcularCompra(int[] montos, int montoSorteo){
         int[] lista = new int[montos.length];
 
